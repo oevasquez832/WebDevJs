@@ -1,0 +1,54 @@
+#title-page{
+    height: 30%;
+    min-height: 30%;
+    width: 100%;
+    display:block;
+    size: contain;    
+}
+
+#filter-form{
+ margin: 5%;
+}
+
+.side-content{
+    min-height:100%;
+}
+
+main, table{
+    padding:5px;
+}
+.btn:hover
+{
+    background-color: rgb(0,90,0);
+    font-weight: bolder; 
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color:rgb(0,90,0);
+    font-weight: bolder;
+  }
+
+@media (min-width: 992px) {
+    .collapsed {
+        display: block;
+        margin-left: -25%;
+    }
+}
+
+input{
+    margin: 10px;
+}
+
+table {
+ font-size:12px;
+ border-radius: 10px;
+padding: 5 px;
+}
+.btn:hover
+{
+    background-color: rgb(0,90,0);
+    font-weight: bolder; 
+}
+
+
+
